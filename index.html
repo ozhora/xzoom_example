@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Page Image Zoom Effect Jquery</title>
+    <link rel="stylesheet" href="./css/style.css" />
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="xzoom-container">
+            <img src="./images/1-min.jpg" class="xzoom" xoriginal="./images/1.jpg">
+            <div class="xzoom-thumbs">
+                <a href="./images/1.jpg">
+                    <img class="xzoom-gallery" src="./images/1-min.jpg" xpreview="./images/1-min.jpg">
+                </a>
+                <a href="./images/2.jpg">
+                    <img class="xzoom-gallery" src="./images/2-min.jpg">
+                </a>
+                <a href="./images/3.jpg">
+                    <img class="xzoom-gallery" src="./images/3-min.jpg">
+                </a>
+                <a href="./images/4.jpg">
+                    <img class="xzoom-gallery" src="./images/4-min.jpg">
+                </a>
+            </div>
+        </div>
+        <div class="description">
+            <h1>Atasan Wanita</h1>
+            <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure facilis unde odio culpa fugiat accusantium quod quibusdam soluta commodi alias repellat voluptatem libero, similique non sapiente eum impedit mollitia atque.
+            </p>
+            <span>Rp. 120.000</span>
+            <div class="">
+                <button class="buy">Buy</button>
+                <button class="cart">Add To Cart</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="./js/jquery.js"></script>
+    <script src="./js/zoom.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>

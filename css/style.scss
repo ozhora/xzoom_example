@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,600;1,600&display=swap');
+$bgColor: greenyellow;
+$bgContainer: white;
+$txtHargaColor: orange; 
+$shadow : 0 4px 6px 0 rgba(0, 0, 0, 0.12);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: $bgColor;
+}
+
+.container{
+    width: 70vw;
+    margin: 50px auto 50px;
+    background-color: $bgContainer;
+    border-radius: 5px;
+    padding: 15px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    box-shadow: $shadow;
+}
+
+.description{
+    margin-right: 50px;
+    h1{
+        margin: 50px 0 10px 0;
+        font-weight: 300;
+    }
+    p{
+        font-size: 15px;
+    }
+    span{
+        margin-top: 15px;
+        display: inline-block;
+        font-weight: 600;
+        font-size: 30px;
+        color: $txtHargaColor;
+    }
+    button{
+        padding: 15px 50px;
+        margin-top: 15px;
+        cursor: pointer;
+        font-size: 20px;
+        border: none;
+        outline: 0;
+        color: #fff;
+        box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.12);
+        border-radius: 5px;
+    }
+    .buy{
+        background-color: orange;
+    }
+    .cart{
+        background-color: orangered;
+        margin-left: 10px;
+    }
+}
+
+.xzoom-thumbs{
+    a{
+        text-decoration: none;
+    }
+    img{
+        display: inline-block;
+        width: 80px;
+        height: 80px;
+        border: 1px solid #ccc;
+    }
+}
+
+.xzoom-preview{
+    border: 1px solid #ccc;
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.12);
+    border-radius: 10px;
+}
+
+.active{
+    border-radius: 4px;
+    box-shadow: 0 0 4px 4px rgba(0, 0, 0, 0.2);
+}

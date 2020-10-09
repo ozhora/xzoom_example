@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,600;1,600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: greenyellow;
+}
+
+.container {
+  width: 70vw;
+  margin: 50px auto 50px;
+  background-color: white;
+  border-radius: 5px;
+  padding: 15px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  -webkit-box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.12);
+          box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.12);
+}
+
+.description {
+  margin-right: 50px;
+}
+
+.description h1 {
+  margin: 50px 0 10px 0;
+  font-weight: 300;
+}
+
+.description p {
+  font-size: 15px;
+}
+
+.description span {
+  margin-top: 15px;
+  display: inline-block;
+  font-weight: 600;
+  font-size: 30px;
+  color: orange;
+}
+
+.description button {
+  padding: 15px 50px;
+  margin-top: 15px;
+  cursor: pointer;
+  font-size: 20px;
+  border: none;
+  outline: 0;
+  color: #fff;
+  -webkit-box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.12);
+          box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.12);
+  border-radius: 5px;
+}
+
+.description .buy {
+  background-color: orange;
+}
+
+.description .cart {
+  background-color: orangered;
+  margin-left: 10px;
+}
+
+.xzoom-thumbs a {
+  text-decoration: none;
+}
+
+.xzoom-thumbs img {
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+  border: 1px solid #ccc;
+}
+
+.xzoom-preview {
+  border: 1px solid #ccc;
+  -webkit-box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.12);
+          box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.12);
+  border-radius: 10px;
+}
+
+.active {
+  border-radius: 4px;
+  -webkit-box-shadow: 0 0 4px 4px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 0 4px 4px rgba(0, 0, 0, 0.2);
+}
+/*# sourceMappingURL=style.css.map */
